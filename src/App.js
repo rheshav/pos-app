@@ -18,13 +18,3 @@ function App() {
 }
 
 export default App;
-
-let tambah = () => {
-  let a = prompt(`masukkan nilai a`);
-  let b = parseInt(prompt(`masukkan nilai b`));
-
-  console.log(`nilai a = ` + a);
-  console.log(`nilai b = ` + b);
-  return console.log(`a + b = `, a + b);
-};
-tambah();
