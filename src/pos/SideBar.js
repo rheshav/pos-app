@@ -7,9 +7,11 @@ function SideBar(props) {
   return (
     <div>
       <p>SideBar</p>
-      <MenuList></MenuList>
-      <Profile></Profile>
-      <Settings></Settings>
+      <MenuList>
+        <Profile>
+          <Settings></Settings>
+        </Profile>
+      </MenuList>
     </div>
   );
 }
